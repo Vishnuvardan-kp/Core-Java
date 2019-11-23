@@ -1,3 +1,3 @@
 # Core-Java
 This is my first commit
-test commit
+Updating the read me file to raise a PR
