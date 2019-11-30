@@ -67,7 +67,7 @@ public class customObjectsLearning {
 			System.out.println("Mobile Inch : "+mble.mobileSpecifications.getMbInch());
 			System.out.println("Mobile Warranty : "+mble.mobileSpecifications.getMbWarranty());
 			System.out.println("Mobile Price : "+mble.getMobilePrice());
-			System.out.println("******");
+			//System.out.println("******");
 		}
 	}
 
