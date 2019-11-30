@@ -58,16 +58,15 @@ public class customObjectsLearning {
 		});
 		
 		for (int i = 0; i < mobiles.size(); i++) {
-			Mobile mble = mobiles.get(i);
-			System.out.println("Mobile Name : "+mble.getMobileName().toUpperCase());
-			System.out.println("Mobile RAM : "+mble.mobileSpecifications.getMbRAM());
-			System.out.println("Mobile Processor : "+mble.mobileSpecifications.getMbProcessor());
-			System.out.println("Mobile Camera pixel : "+mble.mobileSpecifications.getMbCameraPixel());
-			System.out.println("Mobile Battery Capacity : "+mble.mobileSpecifications.getMbBatteryCapacity());
-			System.out.println("Mobile Inch : "+mble.mobileSpecifications.getMbInch());
-			System.out.println("Mobile Warranty : "+mble.mobileSpecifications.getMbWarranty());
-			System.out.println("Mobile Price : "+mble.getMobilePrice());
-			System.out.println("Mobile Price****** : "+mble.getMobilePrice());
+			
+			/*
+			 * Mobile Battery Capacity : 5000 Mobile Inch : 6inch Mobile Warranty : 3yrs
+			 * Mobile Price : 50000 Mobile Name : ASUS Mobile RAM : 8 Mobile Processor : i3
+			 * Mobile Camera pixel : 8px Mobile Battery Capacity : 4500 Mobile Inch : 5inch
+			 * Mobile Warranty : 1yr Mobile Price : 15000 Mobile Name : NEXUS Mobile RAM :
+			 * 16 Mobile Processor : i5 Mobile Camera pixel : 16px Mobile Battery Capacity :
+			 * 4000 Mobile Inch : 5.5inch Mobile Warranty : 2yrs Mobile Price : 30000
+			 */
 		}
 	}
 
